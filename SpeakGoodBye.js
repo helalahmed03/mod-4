@@ -1,4 +1,6 @@
-
+  
+// NOTE! The steps in this file are basically identical to the ones you
+// performed in the SpeakHello.js file.
 
 (function(window){
   // STEP 6: Wrap the entire contents of SpeakGoodBye.js inside of an IIFE
@@ -25,3 +27,4 @@
   // 'byeSpeaker' on the global scope as well.
   window.byeSpeaker = byeSpeaker;
 })(window);
+
